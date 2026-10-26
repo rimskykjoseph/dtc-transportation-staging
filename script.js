@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded',function(){
  function placePanel(){
    if(!panel0||!heroWrap||!heroSec){return;}
    if(mqMobile.matches){heroSec.after(panel0);document.body.classList.add('panel-below');}
-   else{heroWrap.appendChild(panel0);document.body.classList.remove('panel-below');}
+   else{heroSec.after(panel0);document.body.classList.remove('panel-below');}
  }
  placePanel();
  if(mqMobile.addEventListener){mqMobile.addEventListener('change',placePanel);}
