@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rimskykjoseph.github.io/dtc-transportation/sitemap.xml
